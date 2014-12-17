@@ -6,6 +6,8 @@ namespace NLayers.TopLayer
 {
     class Program
     {
+        // have a look at  : http://stackoverflow.com/questions/7903595/loading-modules-in-all-assemblies-in-ninject
+
         static void Main(string[] args)
         {
             IKernel kernel = new StandardKernel(new TopModule());
